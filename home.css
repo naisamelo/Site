@@ -8,10 +8,10 @@
 }
 
 .comand {
+  display: inline-block;
   background-color: gray;
-  padding: 6px;
+  padding: 10px;
   color: white;
-
 }
 a {
   text-decoration: none;
