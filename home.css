@@ -20,6 +20,10 @@ a {
   border: black;
 }
 
+p {
+  font-size: medium;
+}
+
 h1{
   text-align: center;
 }
