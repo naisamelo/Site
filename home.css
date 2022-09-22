@@ -1,0 +1,37 @@
+.format {
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: justify;
+}
+
+#home {
+  background: #FFF5EE;
+}
+
+.comand {
+  background-color: gray;
+  padding: 6px;
+  color: white;
+
+}
+a {
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  border: black;
+}
+
+h1{
+  text-align: center;
+}
+
+h2, h3, h4{
+  text-align: justify;
+}
+
+h4 {
+  color: red;
+  font-size: 18pt;
+}
+img{
+  margin: 0;
+}
