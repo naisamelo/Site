@@ -7,10 +7,13 @@
   background: #FFF5EE;
 }
 
+.span{
+  font-weight: bolder;
+}
 .comand {
   display: inline-block;
   background-color: #4F4F4F;
-  padding: 10px;
+  padding: 8px;
   color: white;
 }
 a {
@@ -21,7 +24,7 @@ a {
 }
 
 p {
-  font-size: medium;
+  font-size: larger;
 }
 
 h1{
