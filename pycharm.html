@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="home.css">
+	<title>Tutoriais</title>
+</head>
+<body id="home">
+	<h1>Tutoriais para instalação de Softwares no Ubuntu 16.04</h1>
+	<h2></h2>
+	<h3>Profª.: Naisa Melo</h3>
+
+	<h1 style="color: blue;text-align: left;">Pycharm Community</h1>
+	<h3>Siga os passos abaixo:</h3>
+	<p>Abra o Terminal do Ubuntu - Ctrl + Alt + T</p>
+	
+	<h4>PASSO 1:</h4>
+	
+	<p> 1. Verifique se você já tem o Java Development Kit instalado</p>
+	
+	<p>Se você tiver um JDK instalado, não será necessário concluir as etapas 1 e 2. Para ver sua versão do JDK, abra um terminal em seu sistema e digite o seguinte comando:</p>
+	
+	<p class="comand">java -version</p>
+	
+	<p class="span">Se você obtiver uma saída semelhante a “O programa 'java' pode ser encontrado…”, ou “java: comando não encontrado”, então você não tem nenhuma versão do Java instalada. Se você não tiver o Java instalado, vá para o PASSO 2.</p>
+	
+	<h4>PASSO 2:</h4>
+
+	<p>2. Instale o OpenJDK 8</p>
+	
+	<p>Para instalar o OpenJDK 8, o código aberto do Java Development Kit, execute o comando a seguir, seguido da senha da sua conta de usuário.</p>
+	
+	<p class="comand">sudo apt-get install -y openjdk-8-jre-headless</p>
+
+	<p>Isso pode levar alguns minutos, pois o tamanho da instalação combinada é um pouco grande. A velocidade de download dependerá da sua conexão com a internet.</p>
+
+  <p>Depois que o processo de instalação estiver concluído, execute o seguinte comando para verificar sua versão do java:</p>
+
+  <p class="comand">java -version</p>
+
+  <p>A primeira linha de saída deve ser semelhante a esta:</p>
+  <p class="comand">openjdk version "1.8.0_151"</p>
+  <p>Se isso acontecer, você instalou com sucesso o OpenJDK no seu sistema Ubuntu.</p>
+	
+	<h4>PASSO 3:</h4>
+	<p>3.Adicione o repositório do Ubuntu Make</p>
+	<p>Para instalar o PyCharm, precisaremos adicionar o repositório Ubuntu Make. Digite o seguinte comando para instalar o novo repositório:</p>
+	
+	<p class="comand">sudo add-apt-repository -y ppa:ubuntu-desktop/ubuntu-make</p>
+	<p>Feito isso, vá para a etapa 4.<p>
+	
+	<h4>PASSO 4:</h4>
+	<p>4. Conclua a instalação do novo repositório</p>
+
+	<p>Para finalizar a instalação do Ubuntu Make, devemos atualizar o apt-get. Faça isso executando o seguinte comando:</p>
+	
+	<p class="comand">sudo apt-get update</p>
+	
+	<p>Quando terminar, você pode prosseguir para a etapa 5.</p>
+
+	<h4>PASSO 5:</h4>
+	<p>5. Instale umake</p>
+
+	<p>Antes de instalar o PyCharm, devemos instalar o pacote ubuntu-make usando o seguinte comando:</p>
+	
+	<p class="comand">sudo apt-get install -y ubuntu-make</p>
+
+	<p>Quando terminar, vá para a etapa 6.</p>
+	
+	<h4>PASSO 6:</h4>
+	<p>6. Instale o PyCharm no Ubuntu 16.04 com umake</p>
+	<p>Para instalar a versão da comunidade do PyCharm, execute o seguinte comando:</p>
+	<p class="comand">umake ide pycharm</p>
+
+	<p>Umake solicitará que você escolha um diretório de instalação. Se você quiser, você pode mudar isso. Mas para este tutorial, vamos deixá-lo inalterado (/home/<username here>/.local/share/umake/ide/pycharm). Como o PyCharm é um programa grande, o processo de download e instalação pode levar alguns minutos.</p>
+	<br>
+	<p class="span">Após a instalação, reiniciar o COMPUTADOR</p>
+
+</body>
+</html><!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="home.css">
+	<title>Tutoriais</title>
+</head>
+<body id="home">
+	<h1>Tutoriais para instalação de Softwares no Ubuntu 16.04</h1>
+	<h2></h2>
+	<h3>Profª.: Naisa Melo</h3>
+
+	<h1 style="color: blue;text-align: left;">Pycharm Community</h1>
+	<h3>Siga os passos abaixo:</h3>
+	<p>Abra o Terminal do Ubuntu - Ctrl + Alt + T</p>
+	
+	<h4>PASSO 1:</h4>
+	
+	<p> 1. Verifique se você já tem o Java Development Kit instalado</p>
+	
+	<p>Se você tiver um JDK instalado, não será necessário concluir as etapas 1 e 2. Para ver sua versão do JDK, abra um terminal em seu sistema e digite o seguinte comando:</p>
+	
+	<p class="comand">java -version</p>
+	
+	<p class="span">Se você obtiver uma saída semelhante a “O programa 'java' pode ser encontrado…”, ou “java: comando não encontrado”, então você não tem nenhuma versão do Java instalada. Se você não tiver o Java instalado, vá para o PASSO 2.</p>
+	
+	<h4>PASSO 2:</h4>
+
+	<p>2. Instale o OpenJDK 8</p>
+	
+	<p>Para instalar o OpenJDK 8, o código aberto do Java Development Kit, execute o comando a seguir, seguido da senha da sua conta de usuário.</p>
+	
+	<p class="comand">sudo apt-get install -y openjdk-8-jre-headless</p>
+
+	<p>Isso pode levar alguns minutos, pois o tamanho da instalação combinada é um pouco grande. A velocidade de download dependerá da sua conexão com a internet.</p>
+
+  <p>Depois que o processo de instalação estiver concluído, execute o seguinte comando para verificar sua versão do java:</p>
+
+  <p class="comand">java -version</p>
+
+  <p>A primeira linha de saída deve ser semelhante a esta:</p>
+  <p class="comand">openjdk version "1.8.0_151"</p>
+  <p>Se isso acontecer, você instalou com sucesso o OpenJDK no seu sistema Ubuntu.</p>
+	
+	<h4>PASSO 3:</h4>
+	<p>3.Adicione o repositório do Ubuntu Make</p>
+	<p>Para instalar o PyCharm, precisaremos adicionar o repositório Ubuntu Make. Digite o seguinte comando para instalar o novo repositório:</p>
+	
+	<p class="comand">sudo add-apt-repository -y ppa:ubuntu-desktop/ubuntu-make</p>
+	<p>Feito isso, vá para a etapa 4.<p>
+	
+	<h4>PASSO 4:</h4>
+	<p>4. Conclua a instalação do novo repositório</p>
+
+	<p>Para finalizar a instalação do Ubuntu Make, devemos atualizar o apt-get. Faça isso executando o seguinte comando:</p>
+	
+	<p class="comand">sudo apt-get update</p>
+	
+	<p>Quando terminar, você pode prosseguir para a etapa 5.</p>
+
+	<h4>PASSO 5:</h4>
+	<p>5. Instale umake</p>
+
+	<p>Antes de instalar o PyCharm, devemos instalar o pacote ubuntu-make usando o seguinte comando:</p>
+	
+	<p class="comand">sudo apt-get install -y ubuntu-make</p>
+
+	<p>Quando terminar, vá para a etapa 6.</p>
+	
+	<h4>PASSO 6:</h4>
+	<p>6. Instale o PyCharm no Ubuntu 16.04 com umake</p>
+	<p>Para instalar a versão da comunidade do PyCharm, execute o seguinte comando:</p>
+	<p class="comand">umake ide pycharm</p>
+
+	<p>Umake solicitará que você escolha um diretório de instalação. Se você quiser, você pode mudar isso. Mas para este tutorial, vamos deixá-lo inalterado (/home/<username here>/.local/share/umake/ide/pycharm). Como o PyCharm é um programa grande, o processo de download e instalação pode levar alguns minutos.</p>
+	<br>
+	<p class="span">Após a instalação, reiniciar o COMPUTADOR</p>
+
+</body>
+</html>
