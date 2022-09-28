@@ -23,7 +23,7 @@ header {
     background-color: #fff;
 }
 
-header img {width: 200px;}
+header img {width: 100px;}
 header nav {display: flex;}
 header li a {color: #191c03;}
 header li {margin: 0 15px;}
