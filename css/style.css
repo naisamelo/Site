@@ -45,7 +45,7 @@ header li:last-child{margin-right: 0;}
     background-image: url(../img/hero.jpg);
     background-size: cover;
     min-height: 100vh; /*Equivalente a 100%*/
-    color: #fff;
+    color: rgb(14, 4, 4);
     display: flex;
     justify-content: center;
     align-items: center;
